@@ -59,10 +59,12 @@ public class l002{
     }
   }
 
+  /**
+   * @param row
+   */
   public static void inverted_triangle(int row)
   {
     System.out.println(" Print reverse triangle function running");
-    int nst = row;
     for(int r = row; r>= 1; r--)
     {
       for( int cst = 1; cst <=r; cst++)
